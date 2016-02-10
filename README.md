@@ -13,7 +13,7 @@ To help you **work around** this we've created two examples of MP3 playback that
 - [Background music function in Pygame](pygame_music.py)
 - [Subprocess Omxplayer and send key strokes to control it](omxplayer_shell.py)
 
-Here's how to try them. Open a Terminal window on your Raspberry Pi and enter these commands:
+Here's how to try them. Open a Terminal window on your Raspberry Pi, plug in some headphones, and enter these commands:
 
 ```bash
 git clone https://github.com/astro-pi/flight-mp3-examples.git
