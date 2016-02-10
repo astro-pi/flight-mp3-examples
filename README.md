@@ -26,7 +26,7 @@ Each example turns the volume down, then back up and finally pauses the music fo
 
 So what other modules can you use? There are numerous modules built into Python that are known as the *Standard Library*, commonly used modules like `time`, `os`, `math` and `threading` are all part of this. So those modules, and many others, can be used without issue.
 
-The lists below show the Python modules that are installed on the Astro Pis in space. All other modules, not listed here, will produced the same `ImportError` as above.
+The lists below show the Python modules that are installed on the Astro Pis in space. All other modules, not listed here or in the Standard Library, will produce the same `ImportError` as above.
 
 ## Python 2.7
 
