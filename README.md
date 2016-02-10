@@ -8,7 +8,7 @@ This means that, for the MP3 player challenge, entrants must not submit code tha
 
 Then your program would just end abruptly having done nothing. This happens because the `apt-get` command hasn't been run on the Astro Pis in space and we're unable to upload and install the `vlc` module manually due to issues with approved file types.
 
-To help you we've created two examples of MP3 playback that are **known to work** on the Astro Pis in space which you can adapt and integrate into your own code.
+To help you **work around** this we've created two examples of MP3 playback that are **known to work** on the Astro Pis in space which you can adapt and integrate into your own code.
 
 - [Background music function in Pygame](pygame_music.py)
 - [Subprocess Omxplayer and send key strokes to control it](omxplayer_shell.py)
