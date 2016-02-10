@@ -13,9 +13,20 @@ To help you **work around** this we've created two examples of MP3 playback that
 - [Background music function in Pygame](pygame_music.py)
 - [Subprocess Omxplayer and send key strokes to control it](omxplayer_shell.py)
 
-So what modules can you use? There are numerous modules built into Python that are known as the *Standard Library*, commonly used modules like `time`, `os`, `math` and `threading` are all part of this. So those modules, and many others, can be used without issue.
+Here's how to try them. Open a Terminal window on your Raspberry Pi and enter these commands:
 
-The lists below show the Python modules that are installed on the Astro Pis in space.
+```bash
+git clone https://github.com/astro-pi/flight-mp3-examples.git
+cd flight-mp3-examples
+./pygame_music.py
+./omxplayer_shell.py
+```
+
+Each example turns the volume down, then back up and finally pauses the music for two seconds before continuing to play to the end of the song.
+
+So what other modules can you use? There are numerous modules built into Python that are known as the *Standard Library*, commonly used modules like `time`, `os`, `math` and `threading` are all part of this. So those modules, and many others, can be used without issue.
+
+The lists below show the Python modules that are installed on the Astro Pis in space. All other modules, not listed here, will produced the same `ImportError` as above.
 
 ## Python 2.7
 
